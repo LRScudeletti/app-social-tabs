@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemLiberado"
+        android:contentDescription="@string/botao_liberado"
+        android:icon="@drawable/tab_liberado_icone"
+        android:orderInCategory="200"
+        android:visible="true"
+        android:title="@string/botao_liberado"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/itemBloqueado"
+        android:contentDescription="@string/botao_bloqueio"
+        android:icon="@drawable/tab_bloqueada_icone"
+        android:orderInCategory="200"
+        android:visible="false"
+        android:title="@string/botao_bloqueio"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/itemFullscreen"
+        android:contentDescription="@string/botao_tela_cheia"
+        android:icon="@drawable/tela_cheia_icone"
+        android:orderInCategory="200"
+        android:title="@string/botao_tela_cheia"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/itemConfiguracoes"
+        android:contentDescription="@string/botao_configuracoes"
+        android:icon="@drawable/configuracoes_icone_branco"
+        android:orderInCategory="200"
+        android:title="@string/botao_configuracoes"
+        app:showAsAction="ifRoom" />
+</menu>

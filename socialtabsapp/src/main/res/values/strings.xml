@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PRINCIPAL -->
+    <string name="app_name">Social Tabs</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Social Tabs</string>
+    <string name="botao_bloqueio">Disable tab switching</string>
+    <string name="botao_liberado">Enable tab switching</string>
+    <string name="botao_configuracoes">Settings</string>
+    <string name="botao_tela_cheia">Fullscreen</string>
+    <string name="verificar_conexao">Check your internet connection.</string>
+
+    <!-- MENU HAMBURGER -->
+    <string name="menu_ajudenos">Help Us</string>
+    <string name="item_compras">Remove Ads</string>
+    <string name="item_ajuda">Help</string>
+    <string name="item_configurações">Settings</string>
+    <string name="item_compartilhar">Share</string>
+    <string name="item_avaliar">Rate</string>
+    <string name="item_contato">Contact</string>
+    <string name="item_sobre">About</string>
+
+    <!-- AJUDA -->
+    <string name="tela_ajuda">Help</string>
+
+    <string name="bem_vindo_social_tabs">Welcome to Social Tabs</string>
+
+    <string name="grant_permissions">Grant permissions</string>
+    <string name="please_grant_permissions">Please grant needed permissions.</string>
+
+    <string name="primeiros_passos">First steps</string>
+    <string name="slide_01_descricao_01">To set up social networks, click the “Settings“ button.</string>
+    <string name="descricao_imagem_configuracao">Settings button example</string>
+    <string name="slide_01_descricao_02">You can turn social networks on or off, and change the position and color of tabs.</string>
+    <string name="descricao_imagem_opcoes_configuracao">Example configuration options</string>
+    <string name="slide_01_descricao_03">After making changes, click the “Save“ button to complete the process.</string>
+
+    <string name="slide_02_descricao_01">To hide the tabs, click the “Full Screen“ button.</string>
+    <string name="descricao_imagem_tela_cheia">Full Screen button example</string>
+    <string name="slide_02_descricao_02">The full-screen option provides a greater field of view of information.</string>
+    <string name="descricao_imagem_tela_cheia_ativada">Example of Full Screen option enabled</string>
+    <string name="slide_02_descricao_03">To exit Full Screen mode, click the “X“ button.</string>
+
+    <string name="slide_03_descricao_01">To disable moving between tabs, click the “Lock“ button.</string>
+    <string name="descricao_imagem_bloquear">Lock button example</string>
+    <string name="slide_03_descricao_02">The lock will close and it will no longer be possible to change tabs. To activate the movements, click the “Lock“ button again.</string>
+    <string name="vamos_comecar">Now that we know how to use the app, let\'s start…</string>
+
+    <!-- CONFIGURAÇÕES -->
+    <string name="tela_configuracoes">Settings</string>
+    <string name="popup_adicionar_rede_social">Add Social Network</string>
+    <string name="nome_rede_social">Social Network Name</string>
+    <string name="url_rede_social">Social Network Url</string>
+    <string name="nome_rede_social_hint">g. e.: Twitter</string>
+    <string name="url_rede_social_hint">g. e.: https://twitter.com</string>
+    <string name="cor_tab">Tab Color</string>
+    <string name="selecione_cor">Select Color</string>
+    <string name="posicao">Position</string>
+    <string name="posicao_tab">Tab Position</string>
+    <string name="posicao_tab_hint">1</string>
+    <string name="botao_salvar_descricao">Click to save changes</string>
+    <string name="botao_excluir_descricao">Click to remove social network</string>
+    <string name="botao_ok">OK</string>
+    <string name="botao_cancelar">Cancel</string>
+    <string name="botao_adicionar">Add Social Network</string>
+    <string name="botao_salvar">Save editions</string>
+
+    <!-- MENSAGENS -->
+    <string name="preencha_campos">Please fill in all the fields.</string>
+    <string name="rede_social_inserida_sucesso">Successfully inserted social network.</string>
+    <string name="rede_social_alterada_sucesso">Changes saved successfully.</string>
+    <string name="rede_social_removida_sucesso">%1$s deleted successfully.</string>
+    <string name="facebook_messenger_nao_instalado">Facebook Messenger is not installed.</string>
+    <string name="mensagem_excluir_confirmacao">Delete %1$s?</string>
+    <string name="mensagem_alterar_validacao">It is not possible to disable all social networks.</string>
+    <string name="mensagem_excluir_validacao">Unable to remove all social networks.</string>
+
+    <!-- COMPARTILHAR -->
+    <string name="recomendo_aplicativo">I recommend this app</string>
+    <string name="selecione_opcao_compartilhar">Select an option</string>
+
+    <!-- CONTATO -->
+    <string name="tela_contato">Contact</string>
+    <string name="erro">Error: </string>
+    <string name="modelo_dispositivo">Device Model</string>
+    <string name="versao_android">Android version</string>
+    <string name="mensagem">Message</string>
+    <string name="mensagem_erro_titulo">An error has occurred</string>
+    <string name="mensagem_erro">Please inform the developer</string>
+    <string name="botao_enviar_contato">Send message</string>
+    <string name="aplicacao_email">Select the email application</string>
+    <string name="mensagem_sucesso">Message sent successfully, we will contact you. Thanks.</string>
+    <string name="sugestoes_reclamacoes">Your suggestions, complaints, compliments and doubts are always welcome!</string>
+
+    <!-- SOBRE -->
+    <string name="tela_sobre">About</string>
+    <string name="logo_descricao">Application logo</string>
+    <string name="versão">Version %1$s</string>
+    <string name="politica_privacidade">Privacy policy</string>
+    <string name="easter_egg_descricao">Easter egg</string>
+
+</resources>

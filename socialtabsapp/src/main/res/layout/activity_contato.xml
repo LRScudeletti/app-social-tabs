@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme.EstiloContato"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textColor="@color/corPreto"
+        android:text="@string/sugestoes_reclamacoes"/>
+
+    <EditText
+        android:id="@+id/txtDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:padding="10sp"
+        android:background="@color/corBranco"
+        android:hint="@string/mensagem"
+        android:gravity="top|start"
+        android:inputType="textEmailAddress|textMultiLine"
+        android:lines="20"
+        android:minLines="10"
+        android:scrollHorizontally="false"
+        android:scrollbars="vertical"
+        android:imeOptions="actionDone"
+        tools:ignore="Autofill" />
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/itemCompras"
+            android:icon="@drawable/compras_icone"
+            android:visible="false"
+            android:title="@string/item_compras" />
+
+        <item
+            android:id="@+id/itemAjuda"
+            android:icon="@drawable/ajuda_icone"
+            android:title="@string/item_ajuda" />
+
+        <item
+            android:id="@+id/itemConfiguracoes"
+            android:icon="@drawable/configuracoes_icone_preto"
+            android:title="@string/item_configurações" />
+    </group>
+
+    <item android:title="@string/menu_ajudenos">
+        <menu>
+            <item
+                android:id="@+id/itemCompartilhar"
+                android:icon="@drawable/compartilhar_icone"
+                android:title="@string/item_compartilhar" />
+            <item
+                android:id="@+id/itemAvaliar"
+                android:icon="@drawable/avaliar_app_icone"
+                android:title="@string/item_avaliar" />
+            <item
+                android:id="@+id/itemReportarErro"
+                android:icon="@drawable/contato_icone"
+                android:title="@string/item_contato" />
+            <item
+                android:id="@+id/itemSobre"
+                android:icon="@drawable/sobre_icone"
+                android:title="@string/item_sobre" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.QuadFlask:colorpicker:0.0.13@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/colorpicker-0.0.13.aar/de73ad99f8f619348cfc257cede503f7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/colorpicker-0.0.13.aar/de73ad99f8f619348cfc257cede503f7/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.QuadFlask/colorpicker/0.0.13/15f3ed61170a6d370ed7f9a57917bf7be65a653c/colorpicker-0.0.13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

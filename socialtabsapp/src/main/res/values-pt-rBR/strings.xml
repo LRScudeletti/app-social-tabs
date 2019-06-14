@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PRINCIPAL -->
+    <string name="app_name">Social Tabs</string>
+    <string name="navigation_drawer_open">Abrir menu de navegação</string>
+    <string name="navigation_drawer_close">Fechar menu de navegação</string>
+    <string name="nav_header_title">Social Tabs</string>
+    <string name="botao_bloqueio">Desativar troca de tabs</string>
+    <string name="botao_liberado">Ativar troca de tabs</string>
+    <string name="botao_configuracoes">Configurações</string>
+    <string name="botao_tela_cheia">Tela Cheia</string>
+    <string name="verificar_conexao">Verifique sua conexão com a internet</string>
+
+    <!-- MENU HAMBURGER -->
+    <string name="menu_ajudenos">Ajude-nos</string>
+    <string name="item_compras">Remove Anúncios</string>
+    <string name="item_ajuda">Ajuda</string>
+    <string name="item_configurações">Configurações</string>
+    <string name="item_compartilhar">Compartilhar</string>
+    <string name="item_avaliar">Avaliar</string>
+    <string name="item_contato">Contato</string>
+    <string name="item_sobre">Sobre</string>
+
+    <!-- AJUDA -->
+    <string name="tela_ajuda">Ajuda</string>
+
+    <string name="bem_vindo_social_tabs">Bem-vindo ao Social Tabs</string>
+
+    <string name="grant_permissions">Liberar permissões</string>
+    <string name="please_grant_permissions">Para continuar, é necessário liberar as permissões.</string>
+
+    <string name="primeiros_passos">Primeiros passos</string>
+    <string name="slide_01_descricao_01">Para configurar as redes sociais, clique no botão de “Configurações”.</string>
+    <string name="descricao_imagem_configuracao">Exemplo do botão de Configurações</string>
+    <string name="slide_01_descricao_02">É possível ativar e desativar as redes sociais, além de alterar a posição e cor das tabs.</string>
+    <string name="descricao_imagem_opcoes_configuracao">Exemplo das opções de Configuração</string>
+    <string name="slide_01_descricao_03">Após realizar as alterações, clique no botão “Salvar“ para concluir o processo.</string>
+
+    <string name="slide_02_descricao_01">Para ocultar as tabs, clique no botão “Tela Cheia“.</string>
+    <string name="descricao_imagem_tela_cheia">Exemplo do botão de Tela Cheia</string>
+    <string name="slide_02_descricao_02">A opção de tela cheia proporciona um maior campo de visão das informações.</string>
+    <string name="descricao_imagem_tela_cheia_ativada">Exemplo da opção de Tela Cheia ativada</string>
+    <string name="slide_02_descricao_03">Para sair do modo de Tela Cheia clique no botão “X“.</string>
+
+    <string name="slide_03_descricao_01">Para desativar a movimentação entre tabs, clique no botão “Bloqueio“.</string>
+    <string name="descricao_imagem_bloquear">Exemplo do botão de Bloquear</string>
+    <string name="slide_03_descricao_02">O cadeado irá fechar e não será mais possível trocar de tab. Para ativar os movimentos, clique novamente no botão “Bloqueio“.</string>
+    <string name="vamos_comecar">Agora que já sabemos como utilizar o app, vamos começar…</string>
+
+    <!-- CONFIGURAÇÕES -->
+    <string name="tela_configuracoes">Configurações</string>
+    <string name="popup_adicionar_rede_social">Adicionar Rede Social</string>
+    <string name="nome_rede_social">Nome da Rede Social</string>
+    <string name="url_rede_social">Url da Rede Social</string>
+    <string name="nome_rede_social_hint">p. ex.: Twitter</string>
+    <string name="url_rede_social_hint">p. ex.: https://twitter.com</string>
+    <string name="cor_tab">Cor da Tab</string>
+    <string name="selecione_cor">Selecione a Cor</string>
+    <string name="posicao">Posição</string>
+    <string name="posicao_tab">Posição da Tab</string>
+    <string name="posicao_tab_hint">1</string>
+    <string name="botao_salvar_descricao">Clique para salvar as alterações</string>
+    <string name="botao_excluir_descricao">Clique para remover a rede social</string>
+    <string name="botao_ok">OK</string>
+    <string name="botao_cancelar">Cancelar</string>
+    <string name="botao_adicionar">Adicionar rede social</string>
+    <string name="botao_salvar">Salvar alterações</string>
+
+    <!-- MENSAGENS -->
+    <string name="preencha_campos">Por favor, preencha todos os campos.</string>
+    <string name="rede_social_inserida_sucesso">Rede social inserida com sucesso.</string>
+    <string name="rede_social_alterada_sucesso">Alterações salvas com sucesso.</string>
+    <string name="rede_social_removida_sucesso">%1$s removido com sucesso.</string>
+    <string name="facebook_messenger_nao_instalado">Facebook Messenger não está instalado!</string>
+    <string name="mensagem_excluir_confirmacao">Remover %1$s?</string>
+    <string name="mensagem_excluir_validacao">Não é possível remover todas as redes sociais.</string>
+    <string name="mensagem_alterar_validacao">Não é possível desativar todas as redes sociais.</string>
+
+    <!-- COMPARTILHAR -->
+    <string name="recomendo_aplicativo">Recomendo esse aplicativo</string>
+    <string name="selecione_opcao_compartilhar">Selecione uma opção</string>
+
+    <!-- CONTATO-->
+    <string name="tela_contato">Contato</string>
+    <string name="erro">Erro: </string>
+    <string name="modelo_dispositivo">Modelo do dispositivo</string>
+    <string name="versao_android">Versão do android</string>
+    <string name="mensagem">Mensagem</string>
+    <string name="mensagem_erro_titulo">Ocorreu um erro</string>
+    <string name="mensagem_erro">Por favor, informe o desenvolvedor</string>
+    <string name="botao_enviar_contato">Enviar mensagem</string>
+    <string name="aplicacao_email">Selecione o aplicativo de e-mail</string>
+    <string name="mensagem_sucesso">Mensagem enviada com sucesso, entraremos em contato. Obrigado.</string>
+    <string name="sugestoes_reclamacoes">Suas sugestões, reclamações, elogios e dúvidas são sempre bem-vindas!</string>
+
+    <!-- SOBRE -->
+    <string name="tela_sobre">Sobre</string>
+    <string name="logo_descricao">Logo do aplicativo</string>
+    <string name="versão">Versão %1$s</string>
+    <string name="politica_privacidade">Política de privacidade</string>
+    <string name="easter_egg_descricao">Easter egg</string>
+
+</resources>

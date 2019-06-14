@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginEnd="10sp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="@string/bem_vindo_social_tabs"
+                android:textColor="@color/corPreto"
+                android:textSize="20sp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginEnd="10sp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="@string/primeiros_passos"
+                android:textColor="@color/corPreto"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="10sp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="@string/slide_01_descricao_01"
+                android:textColor="@color/corPreto" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/borda_imagem"
+                android:contentDescription="@string/descricao_imagem_configuracao"
+                android:gravity="center"
+                android:src="@drawable/slide01_01" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="10sp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="@string/slide_01_descricao_02"
+                android:textColor="@color/corPreto" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/borda_imagem"
+                android:contentDescription="@string/descricao_imagem_opcoes_configuracao"
+                android:gravity="center"
+                android:src="@drawable/slide01_02" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="10sp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="@string/slide_01_descricao_03"
+                android:textColor="@color/corPreto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="10sp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="@string/slide_02_descricao_01"
+                android:textColor="@color/corPreto" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/borda_imagem"
+                android:contentDescription="@string/descricao_imagem_tela_cheia"
+                android:gravity="center"
+                android:src="@drawable/slide02_01" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="10sp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="@string/slide_02_descricao_02"
+                android:textColor="@color/corPreto" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/borda_imagem"
+                android:contentDescription="@string/descricao_imagem_tela_cheia_ativada"
+                android:gravity="center"
+                android:src="@drawable/slide02_02" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="10sp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="@string/slide_02_descricao_03"
+                android:textColor="@color/corPreto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="10sp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="@string/slide_03_descricao_01"
+                android:textColor="@color/corPreto" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/borda_imagem"
+                android:contentDescription="@string/descricao_imagem_bloquear"
+                android:gravity="center"
+                android:src="@drawable/slide03_01" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="10sp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="@string/slide_03_descricao_02"
+                android:textColor="@color/corPreto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="30sp"
+                android:layout_marginEnd="10sp"
+                android:layout_marginBottom="10sp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="@string/vamos_comecar"
+                android:textColor="@color/corPreto"
+                android:textStyle="italic|bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnFecharIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        app:fabSize="mini"
+        android:src="@drawable/botao_flutuante_icone"
+        android:visibility="gone" />
+</RelativeLayout>

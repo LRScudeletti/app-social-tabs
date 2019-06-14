@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10sp">
+
+    <EditText
+        android:id="@+id/txtIdLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="10sp"
+        android:hint="@string/posicao_tab_hint"
+        android:inputType="number"
+        android:visibility="gone"
+        tools:ignore="Autofill" />
+
+    <Switch
+        android:id="@+id/swtRedeSocial"
+        android:layout_width="125sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="20sp"
+        android:checked="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:layout_marginEnd="20sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-10sp"
+            android:layout_marginStart="3sp"
+            android:text="@string/posicao"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/txtPosicaoTab"
+            android:layout_width="wrap_content"
+            android:layout_height="42sp"
+            android:hint="@string/posicao_tab_hint"
+            android:inputType="number"
+            android:textSize="14sp"
+            tools:ignore="Autofill" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnAlterarCorTab"
+        android:layout_width="0dp"
+        android:contentDescription="@string/cor_tab"
+        android:layout_height="35sp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:layout_marginEnd="10sp" />
+
+    <ImageButton
+        android:id="@+id/btnExcluirRedeSocial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10sp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/botao_excluir_descricao"
+        android:src="@drawable/excluir_icone" />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnEnviarErro"
+        android:icon="@drawable/enviar_icone"
+        android:orderInCategory="200"
+        android:title="@string/botao_enviar_contato"
+        android:contentDescription="@string/botao_enviar_contato"
+        app:showAsAction="always" />
+</menu>
